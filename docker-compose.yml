@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  langchain:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: langchain_container
