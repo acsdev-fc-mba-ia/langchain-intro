@@ -22,7 +22,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"donjayamanne.python-extension-pack"
+				"donjayamanne.python-extension-pack",
+				"cweijan.vscode-postgresql-client2"
 			]
 		}
 	},
