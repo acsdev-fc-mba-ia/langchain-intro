@@ -5,6 +5,8 @@ FROM mcr.microsoft.com/devcontainers/python:3.12-bullseye
 # Do not need to do this in a docker file, because I can consider the container as an isolated environment
 # RUN python3 -m venv venv &&. venv/bin/activate 
 
+RUN apt update && apt install -y git-lfs
+
 # PYTHON LIBS
 RUN pip install langchain langchain-openai langchain-google-genai \
     langchain-community langchain-text-splitters \
